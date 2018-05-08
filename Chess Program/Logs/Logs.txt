@@ -1,0 +1,18 @@
+Potential Ideas:
+Using a highlighting method to determine if a move is valid or not
+if(button pressed is highlighted)
+    swap positions
+
+
+not gonna lie the move method is hard as hell
+
+move()
+
+make sure the king is not checked
+check conditions - can't expose the king to a check,
+                        make sure the line of path is clear(except the knight), castle and en passants
+the actual moving part - if button is pressed with a certain piece on it, show possible moves by changing the color
+                         of the available locations(red if capture),make sure it does not go out of board and cant take own piece,
+                         if it goes to an empty location, put class there and get rid of class in the previous square, move picture
+after moving - check to see if the opponent king is checked, enable the other pieces to move, disable black pieces from moving
+
